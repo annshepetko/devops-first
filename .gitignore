@@ -1,0 +1,30 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# Змінні з особистими даними
+*.tfvars
+*.tfvars.json
+!*.tfvars.example
+
+# Секрети
+.env
+*.pem
+*.key
+
+# Артефакти збірки
+*.zip
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Редактори / ОС
+.idea/
+.vscode/
+.DS_Store
